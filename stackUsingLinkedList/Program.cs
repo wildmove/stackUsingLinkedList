@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace StackUsingLinkedList_CSharp
 {
@@ -11,5 +12,17 @@ namespace StackUsingLinkedList_CSharp
             info = i;
             next = n;
         }
+    }
+
+    class Stacks
+    {
+        Node top;
+
+        public Stacks()
+        {
+            top = null;
+        }
+
+
     }
 }
